@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+body
+{
+    margin: auto;
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:0% 18%;
+    font-family: courier;
+}
+form,table,tr,td
+{
+    margin: auto;
+    text-align: center;
+}
+table
+{
+    position: absolute;
+    top:25%;
+    left:40%;
+    height: 20em;
+}
+tr,td
+{
+    text-align: center;
+    padding: 1em;
+}
+
+button
+{
+    
+    border-radius: 16px;
+    font-size: 1em;
+    width: 6em;
+    height:2em;
+    border:none;
+    color:#ffffff;
+    background-color: #F44336;
+}
+
+input
+{
+    background-color: transparent;
+    border:none;
+    border-bottom:2px solid #F44336;
+    color:#ffffff;
+    text-align: center;
+}
+
+box{
+	border-radius:5px;
+}
+
+div {
+  position: relative; /*  make label relate to div  */
+  padding-top: 10px;  /*  make space for label      */
+}
+p.errormessage{
+
+	color: #ff0000;
+}
+.inputText {
+  font-size: 12px;
+  width: 250px;
+  height: 27px;
+}
+.floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 5.5em;
+  top: 0.9em;
+    color:gray;
+  transition: 0.2s ease all;
+}
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: -15px;
+    color:#ffffff;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.blur {
+  background: url('back1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  filter: blur(10px);
+  position: absolute;
+  height: 450px;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+}
+
+.widget {
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+body
+{
+    background-image: url("large.jpg");
+    background-size: cover;
+}
+.jumbotron {
+	background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    color: #FF9800;
+    width: 100%;
+}
+
+.starter-template {
+	color: #ffffff;
+}
